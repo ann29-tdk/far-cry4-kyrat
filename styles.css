@@ -1,0 +1,289 @@
+/*   NAVIGATION SECTION   */
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Cinzel', serif;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*   FIRST SECTION */
+#welcome-section {
+  background-color: #F8F5F1;
+  text-align: center;
+}
+
+
+.navbar {
+  padding: 50px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link, .navbar-brand {
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.welcome-text {
+  font-size: 5.625rem;
+  margin-bottom: 2%;
+  font-family: 'Cinzel', serif;
+}
+
+.welcome p {
+  line-height: 2;
+}
+
+.kyrat-mountains {
+  width: 100%;
+}
+
+/*   ABOUT ME SECTION   */
+#about-me {
+  text-align: center;
+  padding: 100px;
+  background-color: #F6C6EA;
+}
+
+.hello {
+  margin: 2% 0;
+  font-size: 4rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.pagan-min {
+  width: 250px;
+  height: 300px;
+}
+
+.quote {
+  width: 60%;
+  margin: auto;
+}
+
+hr {
+  border-color: grey;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 4%;
+  margin: 50px auto;
+}
+
+/*     VISIT US    */
+#visit-us {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #FFF8E5;
+}
+
+.description-heading-1, .description-heading-2, .description-heading-3 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 2rem;
+}
+
+.speciality {
+  text-align: left;
+  margin: 6% 0;
+}
+
+.mountains {
+  width: 35%;
+  height: 231px;
+  float: left;
+  margin-right: 30px;
+}
+
+.white-tigers {
+  width: 35%;
+  height: 231px;
+  float: right;
+  margin-left: 30px;
+}
+
+.crab-rangoons {
+  width: 35%;
+  float: left;
+  margin-right: 35px;
+  transform: rotate(-20deg);
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background-color: #DEFF8B;
+  padding: 10px;
+}
+
+.testimonial-image {
+  width: 8%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2.7rem;
+  line-height: 1.5;
+  margin-bottom: 2%;
+  font-family: 'PT Serif', serif;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*   PLANS */
+#plans {
+  background-color: #E4FBFF;
+  padding: 7% 7%;
+}
+
+#plans h2 {
+  font-family: 'Lora', serif;
+  font-size: 3rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-text, .heading-text {
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+}
+.heading-text
+{
+  margin: 3% 0;
+}
+
+.price-text {
+  font-size: 1rem;
+}
+
+
+
+/* FOLLOW US */
+#follow-us {
+  padding: 5%;
+  background-color: #FDF6F0;
+}
+#follow-us h3 {
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 3.5rem;
+}
+.ending-text {
+  margin: 4% 0 ;
+}
+.social-row {
+
+}
+.copyright-text {
+  margin-top:3%;
+}
+
+@media (max-width:1028px) {
+  .welcome-text {
+    font-size: 3rem;
+    margin: 30px 0;
+  }
+
+  .hello {
+    font-size: 3rem;
+    margin: 30px;
+  }
+
+  #visit-us h1 {
+    font-size: 3rem;
+    margin: 30px;
+  }
+
+  #about-me {
+    text-align: justify;
+  }
+
+  .responsive {
+    text-align: center;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  .quote, .about-text {
+    width: 100%;
+  }
+
+  .speciality {
+    text-align: justify;
+  }
+
+  .description-1 {
+    clear: left;
+  }
+
+  .description-heading-1 {
+    clear: left;
+    margin: 5% 0;
+  }
+
+  .description-2 {
+    clear: right;
+  }
+
+  .description-heading-2 {
+    clear: right;
+    margin: 5% 0;
+  }
+
+  .description-3 {
+    clear: left;
+  }
+
+  .description-heading-3 {
+    clear: left;
+    margin: 5% 0;
+  }
+
+  .mountains {
+    float: none;
+    width: 45%;
+    border-radius: 100%;
+  }
+
+  .white-tigers {
+    float: none;
+    width: 45%;
+    border-radius: 100%;
+  }
+
+  .crab-rangoons {
+    float: none;
+    transform: rotate(0);
+  }
+
+  #plans h2 {
+    font-size: 2rem;
+    margin: 5% 0;
+  }
+
+  #plans .row {
+    margin: 5% 0;
+  }
+
+  #follow-us h3 {
+    font-size: 2rem;
+  }
+  .social-icon {
+    margin: 5px 0;
+  }
+
+}
